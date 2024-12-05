@@ -12,6 +12,7 @@ public class Main {
 			for(int j=0;j<table.length;j++) {
 				table[i][j] = rn.nextInt(10);
 				System.out.print(table[i][j]+"  ");
+
 			}
 			System.out.println();
 		}
