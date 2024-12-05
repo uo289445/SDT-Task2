@@ -16,15 +16,6 @@ public class Main {
 			System.out.println();
 		}
 		
-		int[][] squaredTable = table.clone();
-		for(int i=0;i<squaredTable.length;i++) {
-			for(int j=0;j<squaredTable.length;j++) {
-				squaredTable[i][j] = (int) Math.pow(table[i][j],2);
-				System.out.print(squaredTable[i][j]+" ");
-			}
-			System.out.println();
-		}
-		
 		int[] listedTable = new int[table.length*table.length];
         int index = 0;
         for (int[] line : table) {
