@@ -14,7 +14,15 @@ public class Main {
 				System.out.print(table[i][j]+" ");
 			}
 		}
-		
+		System.out.println();
+		int[][] squaredTable = table.clone();
+		for(int i=0;i<squaredTable.length;i++) {
+			System.out.println();
+			for(int j=0;j<squaredTable.length;j++) {
+				squaredTable[i][j] = table[i][j]^2;
+				System.out.print(squaredTable[i][j]+" ");
+			}
+		}
 	}
 
 }
