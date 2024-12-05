@@ -6,12 +6,12 @@ import java.util.Random;
 public class Main {
 
 	public static void main(String[] args) {
-		int[][] table = new int[3][3];
+		int[][] table = new int[4][3];
 		Random rn = new Random();
 		for(int i=0;i<table.length;i++) {
 			for(int j=0;j<table.length;j++) {
 				table[i][j] = rn.nextInt(10);
-				System.out.print(table[i][j]+" ");
+				System.out.print(table[i][j]+"  ");
 			}
 			System.out.println();
 		}
@@ -33,7 +33,7 @@ public class Main {
             }
         }
         
-        Arrays.sort(listedTable,0,5); //sorts the first 5 numbers
+        Arrays.sort(listedTable,0,7); //sorts the first 5 numbers
         
         index = 0;
         for (int i = 0; i < table.length; i++) {
