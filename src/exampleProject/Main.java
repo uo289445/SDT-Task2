@@ -33,7 +33,7 @@ public class Main {
             }
         }
         
-        Arrays.sort(listedTable);
+        //Arrays.sort(listedTable);
         
         index = 0;
         for (int i = 0; i < table.length; i++) {
