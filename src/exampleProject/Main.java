@@ -33,7 +33,7 @@ public class Main {
             }
         }
         
-        Arrays.sort(listedTable);
+        Arrays.sort(listedTable,0,5); //sorts the first 5 numbers
         
         index = 0;
         for (int i = 0; i < table.length; i++) {
