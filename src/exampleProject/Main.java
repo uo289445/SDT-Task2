@@ -24,7 +24,7 @@ public class Main {
             }
         }
         
-        Arrays.sort(listedTable,0,5); //sorts the first 5 numbers
+        Arrays.sort(listedTable,0,2); //sorts the first 5 numbers
         
         index = 0;
         for (int i = 0; i < table.length; i++) {
